@@ -639,6 +639,9 @@ body{
 .close{
     display: none;
 }
+.dont__scroll{
+    overflow: hidden;
+}
 
 
 
@@ -828,6 +831,43 @@ body{
     }
     .footer__item{
         font-size: 10px;
+    }
+    .main__banner{
+        width: 330px;
+        height: 700px;
+        top: 30px;
+        z-index: 1000;
+    }
+    .comments__block{
+        width: calc(490px / 2);
+        min-height: calc(500px / 2);
+        border-radius: calc(10px / 2);
+        border: 2px solid rgb(2, 2, 137);
+        box-shadow: 0 0 5px rgb(2, 2, 137);
+    }
+    .comments__block .main__input{
+        width: calc(450px / 2);
+        height: calc(50px / 2);
+        font-size: calc(24px / 2);
+        margin: calc(10px / 2);
+    }
+    .comments__block .comments__title{
+        font-size: calc(24px / 2);
+    }
+    .comments__block .comments__submit{
+        width: calc(300px / 2);
+        height: calc(50px / 2);
+        border-radius: calc(20px / 2);
+        font-size: calc(24px / 2);
+    }
+    .comments__block .comments__buttons{
+        max-width: calc(;
+    / 2) }
+    .comments__block .comments__icon{
+        width: calc(50px / 2);
+    }
+    .comments__block .comments__delet{
+        border-radius: calc(11px / 2);
     }
 }
 @media(max-width: 320px){
